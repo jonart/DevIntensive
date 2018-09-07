@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/main_coordinator_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar_layout"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_primary"
+            android:fitsSystemWindows="true">
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:contentScrim="@color/color_primary_dark"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                    <ImageView
+                        android:id="@+id/user_photo_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/profile_image_size"
+                        android:scaleType="centerCrop"
+                        android:fitsSystemWindows="true"/>
+
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:theme="@style/AppTheme.PopupOverlay"
+                    android:titleTextColor="@color/white"
+                    android:popupTheme="@style/AppTheme.PopupOverlay"
+                    app:layout_collapseMode="pin"/>
+            </android.support.design.widget.CollapsingToolbarLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_weight="0.5"
+                    style="@style/head_title">
+                    <TextView
+                        android:id="@+id/user_info_rait_txt"
+                        android:textSize="20sp"
+                        style="@style/head_text"/>
+
+                    <TextView
+                        style="@style/head_text"
+                        android:text="Рейтинг"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/line_size"
+                    android:layout_height="@dimen/vert_line"
+                    android:background="@color/black"/>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    style="@style/head_title">
+                    <TextView
+                        android:id="@+id/user_info_code_lines_txt"
+                        android:textSize="20sp"
+                        style="@style/head_text"/>
+
+                    <TextView
+                        style="@style/head_text"
+                        android:text="Написано строк кода"/>
+                </LinearLayout>
+                <View
+                    android:layout_width="@dimen/line_size"
+                    android:layout_height="@dimen/vert_line"
+                    android:background="@color/black"/>
+                <LinearLayout
+                    android:layout_weight="0.5"
+                    style="@style/head_title">
+                    <TextView
+                        android:id="@+id/user_info_project_txt"
+                        android:textSize="20sp"
+                        style="@style/head_text"/>
+
+                    <TextView
+                        style="@style/head_text"
+                        android:text="Проектов"/>
+                </LinearLayout>
+                <View
+                    android:layout_width="@dimen/line_size"
+                    android:layout_height="@dimen/vert_line"
+                    android:background="@color/black"/>
+
+            </LinearLayout>
+
+
+        </android.support.design.widget.AppBarLayout>
+
+
+
+        <include layout="@layout/static_profile_content"/>
+</android.support.design.widget.CoordinatorLayout>

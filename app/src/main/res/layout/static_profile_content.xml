@@ -1,0 +1,63 @@
+ <android.support.v4.widget.NestedScrollView
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small_8"
+            android:layout_marginBottom="@dimen/spacing_small_8"
+            android:orientation="horizontal">
+            <ImageView
+                style="@style/icon.left"
+                android:src="@drawable/github_circle"/>
+            <ListView
+                android:id="@+id/repositories_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium_32"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_size"
+            android:background="@color/grey_light"
+            android:layout_marginLeft="@dimen/spacing_larger_72"/>
+
+        <LinearLayout
+            style="@style/LinerStr">
+            <ImageView
+                style="@style/icon.left"
+                android:src="@drawable/account_circle"/>
+            <LinearLayout
+                style="@style/LinerAbout">
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/bio_et"
+                        style="@style/edit"
+                        android:inputType="textMultiLine"
+                        android:hint="@string/hint_about"
+                        android:text="@string/about"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_size"
+            android:background="@color/grey_light"
+            android:layout_marginLeft="@dimen/spacing_larger_72"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

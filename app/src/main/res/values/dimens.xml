@@ -1,0 +1,60 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">32dp</dimen>
+    <dimen name="activity_vertical_margin">32dp</dimen>
+
+    <!--Font size-->
+    <dimen name="font_small_12">12sp</dimen>
+    <dimen name="font_normal_15">15sp</dimen>
+    <dimen name="font_medium_18">18sp</dimen>
+    <dimen name="font_large_22">22sp</dimen>
+    <dimen name="font_ultra_large_24">24sp</dimen>
+
+    <!--Sizes-->
+    <dimen name="size_small_8">8dp</dimen>
+    <dimen name="size_small_16">16dp</dimen>
+    <dimen name="size_small_24">24dp</dimen>
+    <dimen name="size_normal_32">32dp</dimen>
+    <dimen name="size_normal_40">40dp</dimen>
+    <dimen name="size_medium_44">44dp</dimen>
+    <dimen name="size_medium_48">48dp</dimen>
+    <dimen name="size_medium_56">56dp</dimen>
+    <dimen name="size_large_72">72dp</dimen>
+
+    <!--Spaces-->
+    <dimen name="spacing_ultra_small_4">4dp</dimen>
+    <dimen name="spacing_small_8">8dp</dimen>
+    <dimen name="spacing_normal_16">16dp</dimen>
+    <dimen name="spacing_medial_24">24dp</dimen>
+    <dimen name="spacing_medium_32">32dp</dimen>
+    <dimen name="spacing_large_56">56dp</dimen>
+    <dimen name="spacing_larger_72">72dp</dimen>
+
+    <!-- Margins -->
+    <dimen name="margin_small_16">16dp</dimen>
+    <dimen name="margin_medial_24">24dp</dimen>
+    <dimen name="margin_medium_32">32dp</dimen>
+    <dimen name="margin_medium_56">56dp</dimen>
+    <dimen name="margin_large_72">72dp</dimen>
+    <dimen name="margin_larger_80">80dp</dimen>
+    <dimen name="margin_larger_88">88dp</dimen>
+
+    <!-- Touch size -->
+    <dimen name="touch_small_24">24dp</dimen>
+    <dimen name="touch_medium_36">36dp</dimen>
+    <dimen name="spacing_large_48">48dp</dimen>
+    <dimen name="spacing_larger_56">56dp</dimen>
+    <dimen name="size_big_72">72dp</dimen>
+    <dimen name="line_size">1dp</dimen>
+    <dimen name="vert_line">72dp</dimen>
+    <dimen name="profile_image_size">256dp</dimen>
+    <dimen name="user_info_size">112dp</dimen>
+
+    <dimen name="fab_right_space">8dp</dimen>
+    <dimen name="placeholder_photo_size">90dp</dimen>
+
+    <dimen name="font_large_24">24sp</dimen>
+    <dimen name="font_medium_20">20sp</dimen>
+    <dimen name="font_small_14">14sp</dimen>
+
+</resources>

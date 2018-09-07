@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="ff_regular">sans-serif</string>
+    <string name="ff_medium">sans-serif-medium</string>
+    <string name="app_name">Камышников Евгений</string>
+    <string name="hint_tel">Мобильный</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_vk">Профиль в VK</string>
+    <string name="hint_rep">Репозиторий</string>
+    <string name="hint_about">О себе</string>
+    <string name="about">Введите информацию о себе. Напишите свои интересы, хобби, принципы жизни Введите информацию о себе!Введите информацию о себе. Напишите свои интересы, хобби, принципы жизни Введите информацию о себе!</string>
+
+    <string name="user_profile.placeholder.image">Изменить фотографию профиля</string>
+    <string name="user_profile.dialog.cancel">Отмена</string>
+    <string name="user_profile.dialog.camera">Сделать снимок</string>
+    <string name="user_profile.dialog.gallery">Загрузить из галлереи</string>
+    <string name="user_profile.dialog.title">Изменить фотографию профиля</string>
+    <string name="user_profile_chose_message">выберите фото</string>
+
+    <!--AuthActivity-->
+    <string name="auth.authorization_enter">Войти</string>
+    <string name="auth.email">Введите e-mail</string>
+    <string name="auth.password">Введите пароль</string>
+    <string name="auth.login">Войти</string>
+    <string name="auth.remember">Забыли пароль?</string>
+</resources>
